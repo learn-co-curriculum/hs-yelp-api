@@ -22,16 +22,7 @@ Paste this into your `Gemfile`:
 gem 'yelp'
 ```
 
-Paste this into your `.env` file.
-
-``` ruby
-yelp_consumer_key=<your consumer key>
-yelp_consumer_secret=<your consumer secret>
-yelp_token=<your token>
-yelp_token_secret=<your token>
-```
-
-### Searching for busineses
+### Searching for businesses
 
 The rest of the code below should go into a model (in the models directory) of your application. Then you'll need to create a new instance of that class inside of a route in your application controller and call your methods there.
 
@@ -40,10 +31,10 @@ If you are taking search criteria via a form, then you should be calling methods
 ``` ruby
 # this creates a new connection to the Yelp API
 Yelp.client.configure do |config|
-  config.consumer_key = ENV['yelp_consumer_key']
-  config.consumer_secret = ENV['yelp_consumer_secret']
-  config.token = ENV['yelp_token']
-  config.token_secret = ENV['yelp_token_secret']
+  config.consumer_key = <your consumer key>
+  config.consumer_secret = <your consumer secret>
+  config.token = <your token>
+  config.token_secret = <your token>
 end
 
 # this searches Yelp for food in the San Francisco area
