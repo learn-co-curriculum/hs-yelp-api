@@ -1,9 +1,4 @@
----
-tags: kids, ruby, yelp, food, apis
-languages: ruby
-level: 1
-type: Intro, Documentation
----
+
 
 ### Yelp
 
