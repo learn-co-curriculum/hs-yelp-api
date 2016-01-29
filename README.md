@@ -41,4 +41,4 @@ response.businesses
 Check out `yelp_test.rb` to test your credentials and see the info that you can get on each business returned in the search. Fork and clone this lab, add your credentials to the configuration, then run `ruby yelp_test.rb` in your terminal.
 
 
-<a href='https://learn.co/lessons/hs-yelp-api' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/hs-yelp-api' title='Yelp'>Yelp</a> on Learn.co and start learning to code for free.</p>
